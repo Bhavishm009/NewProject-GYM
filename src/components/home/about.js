@@ -13,7 +13,7 @@ function AboutUs() {
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen="true"
            className={style.video}></iframe>
           <div className={style.about}>
             <h2 style={{ color: "red" }}>About Us</h2>
@@ -63,7 +63,7 @@ function AboutUs() {
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen className={style.video2}
+              allowFullScreen="true" className={style.video2}
 
             ></iframe>
           </div>
